@@ -1,0 +1,217 @@
+*{margin: 0;padding: 0;outline: 0;}
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url(image/bu.jpg);
+    background-size: cover;
+  background-position: center;
+}
+    
+
+.headsection {
+  background-color: #AA2520;
+  height: 100px;
+  margin-bottom: 5px;
+  opacity: 0.8;
+}
+.headsection h1 {
+    color: darkcyan;
+    font-size: 40px;
+    padding-top: 15px;
+    text-shadow: 2px 2px 2px #000000;
+}
+.logo {
+  height: 100px;
+  overflow: hidden;
+  width: 200px;
+  float: left;
+    
+}
+.welcome {
+  background-color: darkcyan;
+  border: 2px dashed;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #808080;
+  color: #ffffff;
+  float: right;
+  font-size: 22px;
+  font-weight: bold;
+  height: 50px;
+  margin-right: 150px;
+  margin-top: 30px;
+  overflow: hidden;
+  padding-top: 5px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000000;
+  width: 200px;
+}
+.contensection {
+    
+    height: 600px;
+    background-size: cover;
+  background-position: center;
+}
+
+
+.menusection {
+    border: 2px solid #E7E7E7;
+    color: #2B2320;
+    float: left;
+    height: 450px;
+    margin: 30px;
+    padding: 5px;
+    width: 300px;
+    border: 2px solid red;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+.menuhead {
+  background-color: #AA2520;
+  box-shadow: 7px 12px 9px #808080;
+  display: block;
+  font-size: 25px;
+  height: 50px;
+  margin: 5px 5px 20px;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: darkcyan;
+  text-shadow: 2px 2px 2px #000000;
+    border-radius: 20px;
+}
+.menuoption {
+    background-color: #FFFFFF;
+    height: 340px;
+    border: 1px solid red;
+    border-radius: 50px 20px;
+}
+.menuoption ul{
+    list-style-type: none;
+}
+
+.menuoption ul li {
+  background-color: #E7E7E7;
+  border: 1px solid #00FFFF;
+  box-shadow: 5px 5px 5px #AA2520;
+  font-weight: bold;
+  margin: 35px;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 2px 2px 10px;
+    border-radius: 50px 20px;
+}
+.menuoption ul li:hover {
+    background-color: aquamarine;
+    
+}
+.menuoption ul li a {
+    color: darkcyan;
+    text-decoration: none;
+}
+.menuoption ul li a:hover {
+    color: firebrick;
+}
+.dashsection {
+  background-color: #FFFFFF;
+  border: 2px solid #E7E7E7;
+  color: #2B2320;
+  float: right;
+  height: 450px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  padding: 5px;
+  width: 850px;
+    border: 2px solid red;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+.dashhead {
+  background-color: #AA2520;
+  box-shadow: 7px 12px 9px #808080;
+  color: darkcyan;
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  height: 50px;
+  margin: 5px 5px 20px;
+  padding-top: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000000;
+    border-radius: 20px;
+}
+.DashContent {
+    background-color: #f3f3f3;
+    height: 340px;
+    margin: 25px 10px;
+    border-radius: 20px;
+}
+.Dashmenu {
+  background-color: #FFFFFF;
+  float: left;
+  height: 100px;
+  margin-left: 30px;
+  margin-right: 40px;
+  margin-top: 120px;
+  overflow: hidden;
+  width: 200px;
+  border: 1px solid cyan;
+  border-radius: 40px 15px;
+}
+.Dashmenu:hover{
+    background-color: aquamarine;
+}
+
+.Dashmenu a {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 2px 2px 10px;
+  color: darkcyan;
+}
+.Dashmenu a:hover{
+    color: firebrick;
+}
+.image {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 300px;
+    
+    
+}
+.image img {
+    width: 300px;
+}
+.detail {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 450px;
+    height: 300px;
+    font-size: 20px;
+}
+.detail p {
+    color: #000;
+    font-size: 35px;
+}
+
+.footer {
+    background-color: #aa2520;
+    color: darkcyan;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000000;
+    opacity: 0.8;
+}
+.footer a {
+    text-decoration: none;
+    color: darkblue;
+    text-shadow: 2px 2px 2px #108B8B;
+}
